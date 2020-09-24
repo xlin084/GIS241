@@ -2,5 +2,3 @@
 Remote Sensing at Google Earth Engine
 
 Testing1
-
-ÌìÉÏ°×Óñ¾©
