@@ -17,7 +17,7 @@ Map.addLayer(porthillsL8_after, vizParams, 'L8 after');
 
 // This function gets NBR from Landsat 8 imagery.
 var getNBR = function(image) {
-    return image.normalizedDifference(['B4', 'B7']);
+    return image.normalizedDifference(['B5', 'B7']); // NIR and SWIR band 5 and 7.
 };
 
 // Compute NBR from the scenes.
