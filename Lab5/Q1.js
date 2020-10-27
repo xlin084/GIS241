@@ -21,7 +21,7 @@ var clusterer = ee.Clusterer.wekaKMeans(7).train(training);
 // Cluster the input using the trained clusterer.
 var result = image.cluster(clusterer);
 
-// Display the clusters with random colors.
+// Display the clusters with random colors. 
 //Map.addLayer(result.randomVisualizer(), {}, 'clusters');
 
 //palette colour stands for: forest(Dark green), grass(light green), houses&urban area(white), buildings(yellow), sea(water) (blue)
